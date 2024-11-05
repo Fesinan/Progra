@@ -1,0 +1,85 @@
+# Matrices
+
+void ingresaMat (int a[][t], int tam){
+	int i, j;
+	
+	for (i = 0; i < tam; i++) {
+		for (j = 0; j < tam; j++) {
+			printf("Ingrese un valor: ");
+			scanf("%d", &a[i][j]);
+		}
+	}
+}
+
+void mostrarMat (int a[][t], int n){
+	int i, j;
+	
+	printf("\n\n \t\t");
+
+	for (i = 0; i < n; i++) {
+		for (j = 0; j < n; j++) {
+			printf("%6d", a[i][j]);
+		}
+
+		printf("\n\n \t\t");
+	
+	}
+	printf("\n");
+}
+
+# Vectores
+
+void ingresoVecsINTyFLOAT(int vi[], float vf[], int ca){
+    int i;
+
+    for(i = 0; i < ca; i++){
+        printf("Ingrese un Codigo: ");
+        scanf("%d", &vi[i]);
+        printf("Ingrese un presio: ");
+        scanf("%f", &vf[i]);
+    }
+}
+
+void muestraVecsINTyFLOAT(int vi[], float vf[], int ca){
+   printf("\n\n\n\n\t\t\t");
+    for( int i = 0; i < ca; i++){
+        printf("%6d\n", vi[i]);
+        printf("%6.2f", vf[i]);
+    }
+
+}
+
+void ingresoVecINT(int vi[], int ca, char *men){
+    int i;
+
+    for(i = 0; i < ca; i++){
+        printf("Ingrese un Codigo: ");
+        scanf("%d", &vi[i]);
+    }
+}
+
+void muestraVecINT(int vi[], int ca, char *men){
+   int i;
+   printf("%s", men);
+    for( i = 0; i < ca; i++){
+        printf("\t%6d", vi[i]);
+    }
+
+}
+
+void ingresoVecINT(int vi[], int ca){
+    int i;
+
+    for(i = 0; i < ca; i++){
+        printf("Ingrese un Codigo: ");
+  scanf("%d", &vi[i]);
+    }
+}
+
+void muestraVecINT(int vi[], int ca){
+   printf("\n\n\n\n\t\t\t");
+    for( int i = 0; i < ca; i++){
+        printf("%6d\n", vi[i]);
+    }
+
+}
