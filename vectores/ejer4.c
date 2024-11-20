@@ -1,15 +1,15 @@
-/*Una fábrica produce 20 tipos de embalajes mediante 5 máquinas (identificadas por un código
-numérico de 4 cifras).
-Cada día durante cada producción se genera una planilla, donde se indica:
-- Planilla de producción
-- tipo de embalaje (1 a 20 ) LeerYControlar con función genérica
-- máquina que la produjo
-- cantidad producida. LeerYControlar con función genérica
-En la última información se ingresó una planilla de producción cero o negativa.
-INGRESAR PREVIAMENTE LOS CODIGOS DE LAS MAQUINAS (mediante una función)
+/*Una fabrica produce 20 tipos de embalajes mediante 5 maquinas (identificadas por un codigo
+numerico de 4 cifras).
+Cada dia durante cada produccion se genera una planilla, donde se indica:
+- Planilla de produccion
+- tipo de embalaje (1 a 20 ) LeerYControlar con funcion generica
+- maquina que la produjo
+- cantidad producida. LeerYControlar con funcion generica
+En la ultima informacion se ingreso una planilla de produccion cero o negativa.
+INGRESAR PREVIAMENTE LOS CODIGOS DE LAS MAQUINAS (mediante una funciOn)
 Determinar:
 a) Cantidad total de embalajes fabricados.
-b) Tipo/s de embalaje/s del cual se ha fabricado la mayor cantidad producida. Función Máximo
+b) Tipo/s de embalaje/s del cual se ha fabricado la mayor cantidad producida. Funcion Maximo
 c) Listado indicando:
 Numero de maquina
 Cantidad fabricada
@@ -17,9 +17,9 @@ xxxx
 xxx
 xxxx
 xxxx
-Función para Listar
-d) Embalajes (Número/s) no producidos.
-pero los Número de Legajo son números correlativos de 1 a 4
+Funcion para Listar
+d) Embalajes (Numero/s) no producidos.
+pero los Numero de Legajo son numeros correlativos de 1 a 4
  * */
 #include <stdio.h>
 #define N 5
